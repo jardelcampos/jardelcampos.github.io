@@ -145,7 +145,7 @@ const skills = {
           skillName: "Java",
           fontAwesomeClassname: "logos:java",
           style: {
-            backgroundColor: "#FFFFFF",
+            backgroundColor: "transparent",
             color: "#FFFFFF",
           },
         },
@@ -204,19 +204,6 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Federal University of State of Parana",
-      subtitle: "Technologist in Information Systems",
-      logo_path: "ufpr.png",
-      alt_name: "UFPR",
-      duration: "2009 - 2012",
-      descriptions: [
-        "⚡ I have studied core subjects like Data Structures, Object Oriented Programming, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course.",
-      ],
-      website_link: "https://ufpr.br",
-    },
-    {
       title: "PUCPR - Pontifícia Universidade Católica do Paraná.",
       subtitle: "Data Scientist",
       logo_path: "PUCPR.png",
@@ -229,6 +216,31 @@ const degrees = {
       ],
       website_link: "https://www.pucpr.br/",
     },
+    {
+      title: "BYU - Brigham Young University.",
+      subtitle: "English Immersion",
+      logo_path: "byu_logo.png",
+      alt_name: "BYU",
+      duration: "2019 - 2020",
+      descriptions: [
+        "⚡ During my academic journey at BYU, I immersed myself in an English-focused curriculum, honing language proficiency through comprehensive coursework. This immersive experience not only facilitated effective communication but also provided a solid foundation for academic pursuits. As a testament to my language proficiency, I successfully completed the IELTS examination, achieving a commendable score of 7. This accomplishment underscores my dedication to mastering the English language and showcases my ability to excel in language proficiency assessments, reflecting positively on my academic and professional capabilities.",
+      ],
+      website_link: "https://www.byu.edu",
+    },
+    {
+      title: "Federal University of State of Parana",
+      subtitle: "Technologist in Information Systems",
+      logo_path: "ufpr.png",
+      alt_name: "UFPR",
+      duration: "2009 - 2012",
+      descriptions: [
+        "⚡ I have studied core subjects like Data Structures, Object Oriented Programming, Networking, Security, etc.",
+        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course.",
+      ],
+      website_link: "https://ufpr.br",
+    },
+    
   ],
 };
 
@@ -236,16 +248,16 @@ const certifications = {
   certifications: [
     {
       title: "Machine Learning",
-      subtitle: "Alura",
+      subtitle: "ML",
       logo_path: "machinelearning.png",
       certificate_link:
-        "https://cursos.alura.com.br/formacao-machine-learning-v1501",
+        "https://cursos.alura.com.br/user/hcjardes/degree-machine-learning-v1501-1501/certificate",
       alt_name: "Alura",
       color_code: "#0C9D5899",
     },
     {
       title: "Deep Learning",
-      subtitle: "Alura",
+      subtitle: "DL",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://cursos.alura.com.br/user/hcjardes/course/deep-learning-introducao-com-keras/certificate",
@@ -257,7 +269,7 @@ const certifications = {
       subtitle: "NLP",
       logo_path: "nlp.png",
       certificate_link:
-        "https://cursos.alura.com.br/course/nlp-corretor-ortografico",
+        "https://cursos.alura.com.br/user/hcjardes/course/introducao-a-nlp-com-analise-de-sentimento/certificate",
       alt_name: "NLP",
       color_code: "#FFBB0099",
     },
@@ -284,18 +296,18 @@ const certifications = {
       subtitle: "",
       logo_path: "spark.png",
       certificate_link:
-        "https://cursos.alura.com.br/course/spark-apresentando-ferramenta",
+        "https://cursos.alura.com.br/user/hcjardes/course/spark-modelos-classificacao/certificate",
       alt_name: "Spark",
       color_code: "#1F70C199",
     },
     {
       title: "Open CV",
       subtitle: "Computer Vision",
-      logo_path: "alura.png",
+      logo_path: "opencv.png",
       certificate_link:
-        "https://cursos.alura.com.br/course/visao-computacional-reconhecimento-texto-ocr-opencv",
+        "https://cursos.alura.com.br/user/hcjardes/course/visao-computacional-reconhecimento-texto-ocr-opencv/certificate",
       alt_name: "Opencv",
-      color_code: "#0C9D5899",
+      color_code: "#FFBB0099",
     },
     {
       title: "Python",
@@ -309,11 +321,11 @@ const certifications = {
     {
       title: "JavaScript",
       subtitle: "",
-      logo_path: "alura.png",
+      logo_path: "javascript.png",
       certificate_link:
-        "https://cursos.alura.com.br/course/javascript-programando-na-linguagem-web",
+        "https://cursos.alura.com.br/user/hcjardes/course/javascript-programando-na-linguagem-web/certificate",
       alt_name: "JavaScript",
-      color_code: "#2A73CC",
+      color_code: "#FFFFFF",
     },
     
       
@@ -325,7 +337,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "As a dedicated data science enthusiast, I excel in driving process enhancements and automation, showcasing a proven history of delivering tailored solutions for data extraction and transformation. In my role as an Analyst at GVT, I leveraged SQL, Access, and Oracle for report creation, employing JSP and advanced Excel for dynamic charts. With experience in network control for the Paraná State Health System and Linux system automation, I bring a comprehensive skill set. Further, I've honed my expertise through relevant courses, including a Data Science Specialization, focusing on Process Mining, Natural Language Processing, and R Language.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -333,25 +345,36 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Celepar",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Full Stack",
+          company: "Celepar",
+          company_url: "https://www.celepar.pr.gov.br/",
+          logo_path: "celepar.png",
+          duration: "Sep 2012 - Current",
+          location: "Curitiba, Paraná",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "In my journey, I've crafted dynamic web pages using JSP, JavaScript, and CSS, integrating powerful features like Google API for mapping and graphical controls, coupled with database-driven pivot charts that empower informed decision-making. Additionally, I delved into the realm of artificial intelligence, designing a Machine Learning algorithm tailored for Dengue diagnosis, utilizing symptoms as key indicators. Further, I enriched customer interactions by developing a Python-based chatbot, contributing to an elevated and seamless customer experience.",
           color: "#0879bf",
         },
         {
           title: "GVT",
           company: "Data Analist",
           company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          logo_path: "gvt.png",
+          duration: "May 2011 - Oct 2012",
+          location: "Curitiba, Paraná",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "In my professional endeavors, I've not only produced decision-supportive reports through adept utilization of SQL, Access, and Oracle databases but have also navigated the dynamic landscape of web development. Employing JSP and advanced Excel with Macros and programming, I've seamlessly crafted online and dynamic charts, adding a layer of sophistication to data representation. This multifaceted approach underscores my commitment to delivering comprehensive solutions that amalgamate database expertise with cutting-edge web technologies.",
+          color: "#9b1578",
+        },
+        {
+          title: "Universal Studio",
+          company: "Attractive Attendant",
+          company_url: "https://www.universalstudios.com",
+          logo_path: "universal.png",
+          duration: "Nov 2010 - May 2011",
+          location: "Orlando, Florida",
+          description:
+            "My time working in Orlando was not merely a job; it was an immersive experience into American culture. Serving as an Attraction Attendant at Universal Studios, I not only engaged with visitors but also absorbed the vibrant American atmosphere, gaining invaluable insights into the diverse and dynamic culture. This role went beyond daily tasks; it was an opportunity to contribute to the enchanting world of entertainment while connecting with people from various backgrounds. This experience not only enriched my professional skill set but also deepened my understanding of the nuances of American culture, making it a truly transformative and culturally immersive chapter in my journey.",
           color: "#9b1578",
         },
         {
@@ -359,10 +382,10 @@ const experience = {
           company: "Max3d",
           company_url: "",
           logo_path: "max3d.jpg",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          duration: "Jan 2010 - Nov 2010",
+          location: "Curitiba, Paraná",
           description:
-            "",
+            "In my role, I contributed significantly by not only crafting tailored macros to streamline operations within the company but also by configuring personalized CAD3D software solutions for diverse situations and clients. This bespoke approach not only showcased my technical prowess in macro development but also highlighted my adaptability in catering to unique requirements, ensuring that the CAD3D software aligned seamlessly with the specific needs of each situation and client. This dual proficiency in macro production and software customization underscores my commitment to enhancing efficiency and providing bespoke solutions that resonate with the individualized needs of the company and its clients.",
           color: "#fc1f20",
         },
       ],
@@ -385,9 +408,9 @@ const experience = {
           title: "Celepar Intern",
           company: "Companhia de Informatica do Paraná",
           company_url: "https://www.celepar.pr.gov.br/",
-          logo_path: "delhivery_logo.png",
+          logo_path: "celepar.png",
           duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          location: "Curitiba, BR",
           description:
             "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
           color: "#ee3c26",
@@ -416,14 +439,7 @@ const publicationsHeader = {
 
 const publications = {
   data: [
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
+
   ],
 };
 
