@@ -2,27 +2,15 @@
   "data": [
     {
       "id": "R_kgDOG0_8uQ",
-      "name": "Dinamic Chart in PowerBI",
+      "name": "Dinamic Chart in StreamLit",
       "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
+      "url": "https://dashboarddevendas.streamlit.app/",
       "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Python",
+          "iconifyClass": "logos-python"
         }
       ],
       "logo_path": "celepar.png"
@@ -30,9 +18,9 @@
     {
       "id": "R_kgDOGcPKSQ",
       "name": "Gun recgonizion in images",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "createdAt": "2021-31-03",
+      "url": "https://drive.google.com/file/d/1VIfdHbwNQFrIn_kL7SplgwkZRraij6GT/view?usp=drive_link",
+      "description": "⚙️ Gun detection using darknet and yolov3.",
       "isFork": false,
       "languages": [
         {
@@ -45,7 +33,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
       "name": "Cripto with LSMT",
       "createdAt": "2021-01-06T06:36:41Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-loaders",
+      "url": "https://colab.research.google.com/drive/19wcgpF4MqJyRC0P4uwiKc38-vJDnleoM?usp=drive_link",
       "description": "🚀  Prediction the next value of crypto currencies.",
       "isFork": false,
       "languages": [
@@ -59,8 +47,8 @@
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "Predicition dengue with syntoms",
       "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "url": "https://colab.research.google.com/drive/1OvJ-bPVr7YX0a07yz1KGgdWZhuHpC4l6?usp=drive_link",
+      "description": "🚀 Revolutionizing Dengue Prevention: Predicting Dengue Outbreaks Through Early Symptom Analysis.",
       "isFork": false,
       "languages": [
         {

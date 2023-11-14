@@ -26,7 +26,7 @@ const greeting = {
   subTitle:
   "Explore my portfolio to witness my dedication to automation, process optimization, and continuous learning in machine learning and deep learning. If you share this passion, let's collaborate on exciting projects to shape a smarter, more efficient future. Connect with me and bring your ideas to life for a brighter automated tomorrow.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "",
   portfolio_repository: "",
   githubProfile: "jardelsewo.github.io",
 };
