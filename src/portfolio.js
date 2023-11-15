@@ -251,7 +251,7 @@ const certifications = {
       subtitle: "ML",
       logo_path: "machinelearning.png",
       certificate_link:
-        "https://cursos.alura.com.br/user/hcjardes/degree-machine-learning-v1501-1501/certificate",
+        "https://cursos.alura.com.br/degree/certificate/d49edba0-dba0-422d-b2d2-c4fa6d12df99?lang=pt_BR",
       alt_name: "Alura",
       color_code: "#0C9D5899",
     },
