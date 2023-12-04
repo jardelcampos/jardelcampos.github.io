@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0841e4f531d5375aa41ccf60546ad1fa",
+    "revision": "3bc14f2e3937c61d31405c52766b1497",
     "url": "/index.html"
   },
   {
-    "revision": "3fc83041f1989605ac79",
+    "revision": "aae5461ef8118f79b747",
     "url": "/static/css/main.8358103f.chunk.css"
   },
   {
-    "revision": "50ea67dcf24b16a38448",
-    "url": "/static/js/2.eaa92620.chunk.js"
+    "revision": "b73ff016efc2c64da4f3",
+    "url": "/static/js/2.e3d1a6ee.chunk.js"
   },
   {
-    "revision": "3fc83041f1989605ac79",
-    "url": "/static/js/main.db8eecdc.chunk.js"
+    "revision": "aae5461ef8118f79b747",
+    "url": "/static/js/main.484473d6.chunk.js"
   },
   {
     "revision": "e00ef73a3cb77e10f692",
@@ -226,6 +226,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "60ed0bd3f8b99ac1d29e74575f804aaa",
     "url": "/static/media/iu_logo.60ed0bd3.png"
+  },
+  {
+    "revision": "f58d578e582b281c300aa46b0393e6f6",
+    "url": "/static/media/jardel_cartoon.f58d578e.png"
   },
   {
     "revision": "71f3336c3566fde5abc100a6706a748f",
